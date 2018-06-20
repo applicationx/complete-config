@@ -1,2 +1,4 @@
+server:
+  port: ${PORT:9090} 
 message:
   hello: "Hi there"
