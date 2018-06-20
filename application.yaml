@@ -1,0 +1,4 @@
+eureka:
+  instance:
+    hostname: ${EUREKA_HOST:eureka}
+    insecurePort: ${EUREAKE_PORT:8761}
