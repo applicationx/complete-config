@@ -3,8 +3,8 @@ eureka:
     hostname: eureka
     insecurePort: 8761
     leaseRenewalIntervalInSeconds: 5 
-    preferIpAddress: true
-    prefer-ip-address: true
+    preferIpAddress: false
+    prefer-ip-address: false
 client:
   serviceUrl:
     defaultZone: http://eureka:8761/eureka/
