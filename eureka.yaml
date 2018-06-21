@@ -1,6 +1,6 @@
 eureka:
   instance:
-    hostname: localhost
+    hostname: eureka
     insecurePort: 8761
     leaseRenewalIntervalInSeconds: 5 
     preferIpAddress: false
