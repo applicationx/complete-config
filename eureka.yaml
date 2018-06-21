@@ -1,4 +1,10 @@
 eureka:
+  instance:
+    hostname: localhost
+    insecurePort: 8761
+    leaseRenewalIntervalInSeconds: 5 
+    preferIpAddress: false
+    prefer-ip-address: false
   client:
     register-with-eureka: false
     fetch-registry: false
